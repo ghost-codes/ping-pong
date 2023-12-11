@@ -1,25 +1,31 @@
 [
 {
   "directory": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/main.cpp.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/main.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/main.cpp.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/main.cpp",
   "file": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/main.cpp",
   "output": "CMakeFiles/ping-pong.dir/main.cpp.o"
 },
 {
   "directory": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/vertexManager.cpp.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/vertexManager.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/shader.cpp.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/shader.cpp",
+  "file": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/shader.cpp",
+  "output": "CMakeFiles/ping-pong.dir/shader.cpp.o"
+},
+{
+  "directory": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/vertexManager.cpp.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/vertexManager.cpp",
   "file": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/vertexManager.cpp",
   "output": "CMakeFiles/ping-pong.dir/vertexManager.cpp.o"
 },
 {
   "directory": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/usr/local/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/windowManager.cpp.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/windowManager.cpp",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -I/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/windowManager.cpp.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/windowManager.cpp",
   "file": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/windowManager.cpp",
   "output": "CMakeFiles/ping-pong.dir/windowManager.cpp.o"
 },
 {
   "directory": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/build",
-  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/usr/local/include  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/glad.c.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/glad.c",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -I/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk -o CMakeFiles/ping-pong.dir/glad.c.o -c /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/glad.c",
   "file": "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/glad.c",
   "output": "CMakeFiles/ping-pong.dir/glad.c.o"
 }

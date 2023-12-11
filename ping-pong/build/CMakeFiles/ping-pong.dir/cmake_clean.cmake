@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ping-pong.dir/glad.c.o.d"
   "CMakeFiles/ping-pong.dir/main.cpp.o"
   "CMakeFiles/ping-pong.dir/main.cpp.o.d"
+  "CMakeFiles/ping-pong.dir/shader.cpp.o"
+  "CMakeFiles/ping-pong.dir/shader.cpp.o.d"
   "CMakeFiles/ping-pong.dir/vertexManager.cpp.o"
   "CMakeFiles/ping-pong.dir/vertexManager.cpp.o.d"
   "CMakeFiles/ping-pong.dir/windowManager.cpp.o"
