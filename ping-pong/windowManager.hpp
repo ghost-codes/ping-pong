@@ -8,6 +8,13 @@
 #ifndef windowManager_hpp
 #define windowManager_hpp
 
-#include <stdio.h>
+#include <GLFW/glfw3.h>
+
+class GLFWManager {
+public:
+  void initializeGLFW();
+  GLFWwindow *createWindow(int windowHeight, int windowWidth);
+  void swapAndPool(GLFWwindow *window);
+};
 
 #endif /* windowManager_hpp */
