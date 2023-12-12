@@ -34,7 +34,7 @@ int main(int argc, const char *argv[]) {
   Shader ourShader("/Users/macbookpro/Documents/personal/graphics/ping-pong/"
                    "ping-pong/shader.vs",
                    "/Users/macbookpro/Documents/personal/graphics/ping-pong/"
-                   "ping-pong/shader.fs");
+                   "ping-pong/shader2.fs");
 
   float green = 0.3l;
   float red = 0.1;
@@ -43,7 +43,7 @@ int main(int argc, const char *argv[]) {
   triangle.createAndBindBuffers();
 
   while (!glfwWindowShouldClose(window)) {
-    // input
+    // inputt
     process_input(window);
 
     // rendering commands'
@@ -54,9 +54,15 @@ int main(int argc, const char *argv[]) {
     glClear(GL_COLOR_BUFFER_BIT);
 
     float vertexLocation = glGetUniformLocation(ourShader.ID, "ourColor");
+    float iTimeLocation = glGetUniformLocation(ourShader.ID, "iTime");
+    float iResolution = glGetUniformLocation(ourShader.ID, "iResolution");
+    float iMouse = glGetUniformLocation(ourShader.ID, "iMouse");
     ourShader.use();
     triangle.drawTriangle();
     glUniform4f(vertexLocation, 0.0F, greenValue, 0.0f, 1.0f);
+    glUniform1f(iTimeLocation, timeValue);
+    glUniform2f(iResolution, 600.0, 800.0);
+    glUniform4f(iMouse, 0.0, 0.0, 0.0, 0.0);
 
     // check and call events and swap the buffers
     manager.swapAndPool(window);
