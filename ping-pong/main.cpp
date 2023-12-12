@@ -41,6 +41,7 @@ int main(int argc, const char *argv[]) {
   float blue = 0.4;
 
   triangle.createAndBindBuffers();
+  triangle.initTextures();
 
   while (!glfwWindowShouldClose(window)) {
     // inputt
@@ -57,6 +58,8 @@ int main(int argc, const char *argv[]) {
     float iTimeLocation = glGetUniformLocation(ourShader.ID, "iTime");
     float iResolution = glGetUniformLocation(ourShader.ID, "iResolution");
     float iMouse = glGetUniformLocation(ourShader.ID, "iMouse");
+
+    glBindTexture(GL_TEXTURE_2D, triangle.texture);
     ourShader.use();
     triangle.drawTriangle();
     glUniform4f(vertexLocation, 0.0F, greenValue, 0.0f, 1.0f);

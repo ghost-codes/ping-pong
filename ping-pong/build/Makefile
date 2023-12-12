@@ -201,6 +201,30 @@ shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ping-pong.dir/build.make CMakeFiles/ping-pong.dir/shader.cpp.s
 .PHONY : shader.cpp.s
 
+stb_image.o: stb_image.cpp.o
+.PHONY : stb_image.o
+
+# target to build an object file
+stb_image.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ping-pong.dir/build.make CMakeFiles/ping-pong.dir/stb_image.cpp.o
+.PHONY : stb_image.cpp.o
+
+stb_image.i: stb_image.cpp.i
+.PHONY : stb_image.i
+
+# target to preprocess a source file
+stb_image.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ping-pong.dir/build.make CMakeFiles/ping-pong.dir/stb_image.cpp.i
+.PHONY : stb_image.cpp.i
+
+stb_image.s: stb_image.cpp.s
+.PHONY : stb_image.s
+
+# target to generate assembly for a file
+stb_image.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ping-pong.dir/build.make CMakeFiles/ping-pong.dir/stb_image.cpp.s
+.PHONY : stb_image.cpp.s
+
 vertexManager.o: vertexManager.cpp.o
 .PHONY : vertexManager.o
 
@@ -267,6 +291,9 @@ help:
 	@echo "... shader.o"
 	@echo "... shader.i"
 	@echo "... shader.s"
+	@echo "... stb_image.o"
+	@echo "... stb_image.i"
+	@echo "... stb_image.s"
 	@echo "... vertexManager.o"
 	@echo "... vertexManager.i"
 	@echo "... vertexManager.s"

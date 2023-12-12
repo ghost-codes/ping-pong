@@ -10,13 +10,20 @@
 
 class VertexManager {
 public:
-  float vertices[12] = {
-      1.0f,  1.0f,  0.0f, // top right
-      1.0f,  -1.0f, 0.0f, // bottom right
-      -1.0f, -1.0f, 0.0f, // bottom left
-      -1.0f, 1.0f,  0.0f  // top left
+  float vertices[20] = {
+      0.5f,  0.5f,  0.0f, 1.0f, 1.0f, // top right
+      0.5f,  -0.5f, 0.0f, 1.0f, 0.0f, // bottom right
+      -0.5f, -0.5f, 0.0f, 0.0f, 0.0f, // bottom left
+      -0.5f, 0.5f,  0.0f, 0.0f, 1.0f, // top left
   };
 
+  float textureCoord[9] = {
+      0.0f, 0.0f, // bottom left
+      1.0f, 0.0f, // bottom rignt
+      0.5f, 0.1f,
+  };
+
+  unsigned int texture;
   unsigned int indices[6] = {
       // note that we start from 0!
       0, 1, 3, // first triangle
@@ -27,6 +34,7 @@ public:
   void createAndBindBuffers();
   void drawTriangle();
   void deleteShaders();
+  void initTextures();
   unsigned int fragmentShader, vertexShader;
   unsigned int shaderProgram;
   const char *vertexShaderSource = "#version 410 core\n"
