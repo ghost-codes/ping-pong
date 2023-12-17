@@ -1,6 +1,6 @@
 CMakeFiles/ping-pong.dir/stb_image.cpp.o: \
-  /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/stb_image.cpp \
-  /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/stb_image.h \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/stb_image.cpp \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/stb_image.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config_site \

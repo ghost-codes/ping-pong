@@ -5,7 +5,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include
+C_INCLUDES = -I/Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include
 
 C_FLAGSarm64 = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
 
@@ -13,7 +13,7 @@ C_FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Pl
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include
+CXX_INCLUDES = -I/Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/include -I/usr/local/include
 
 CXX_FLAGSarm64 = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk
 

@@ -1,5 +1,5 @@
 CMakeFiles/ping-pong.dir/windowManager.cpp.o: \
-  /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/windowManager.cpp \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/windowManager.cpp \
   /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -34,7 +34,7 @@ CMakeFiles/ping-pong.dir/windowManager.cpp.o: \
   /usr/local/include/GLFW/glfw3.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
-  /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/windowManager.hpp \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/windowManager.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__verbose_abort \

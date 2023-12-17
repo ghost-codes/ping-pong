@@ -1,5 +1,5 @@
 CMakeFiles/ping-pong.dir/glad.c.o: \
-  /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/glad.c \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/glad.c \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_stdio.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/cdefs.h \

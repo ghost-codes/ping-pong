@@ -1,4 +1,4 @@
-# Install script for directory: /Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong
+# Install script for directory: /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/macbookpro/documents/personal/graphics/ping-pong/ping-pong/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
