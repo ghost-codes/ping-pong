@@ -832,6 +832,7 @@ CMakeFiles/ping-pong.dir/main.cpp.o: /Users/macbookpro/Documents/personal/graphi
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdarg.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stdint.h \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/camera.hpp \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/shader.hpp \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/vertexManager.hpp \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/windowManager.hpp \
@@ -1007,6 +1008,7 @@ CMakeFiles/ping-pong.dir/main.cpp.o: /Users/macbookpro/Documents/personal/graphi
   /usr/local/include/glm/detail/type_vec4.inl \
   /usr/local/include/glm/exponential.hpp \
   /usr/local/include/glm/ext/matrix_transform.hpp \
+  /usr/local/include/glm/ext/quaternion_geometric.hpp \
   /usr/local/include/glm/fwd.hpp \
   /usr/local/include/glm/geometric.hpp \
   /usr/local/include/glm/glm.hpp \
@@ -3053,6 +3055,7 @@ CMakeFiles/ping-pong.dir/vertexManager.cpp.o: /Users/macbookpro/Documents/person
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/shader.hpp \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/stb_image.h \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/vertexManager.hpp \
+  /usr/local/include/GLFW/glfw3.h \
   /usr/local/include/KHR/khrplatform.h \
   /usr/local/include/glad/glad.h \
   /usr/local/include/glm/common.hpp \
@@ -4165,8 +4168,6 @@ CMakeFiles/ping-pong.dir/windowManager.cpp.o: /Users/macbookpro/Documents/person
 
 /usr/local/include/glm/ext/vector_float2.hpp:
 
-/usr/local/include/glm/ext/vector_double4_precision.hpp:
-
 /usr/local/include/glm/ext/vector_double4.hpp:
 
 /usr/local/include/glm/ext/vector_double3_precision.hpp:
@@ -4239,10 +4240,6 @@ CMakeFiles/ping-pong.dir/windowManager.cpp.o: /Users/macbookpro/Documents/person
 
 /usr/local/include/glm/ext/matrix_double2x3.hpp:
 
-/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
-
-/usr/local/include/glm/ext/matrix_double2x2.hpp:
-
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/empty.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/empty.h:
@@ -4290,6 +4287,10 @@ CMakeFiles/ping-pong.dir/windowManager.cpp.o: /Users/macbookpro/Documents/person
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/partition_point.h:
 
 /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/windowManager.hpp:
+
+/usr/local/include/glm/ext/vector_double4_precision.hpp:
+
+/Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/camera.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h:
 
@@ -5954,6 +5955,10 @@ CMakeFiles/ping-pong.dir/windowManager.cpp.o: /Users/macbookpro/Documents/person
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/dlfcn.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h:
+
+/usr/local/include/glm/ext/matrix_double2x2.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_nth_element.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/mach/machine/_structs.h:
 

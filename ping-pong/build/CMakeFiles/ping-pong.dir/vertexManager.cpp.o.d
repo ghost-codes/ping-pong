@@ -983,4 +983,5 @@ CMakeFiles/ping-pong.dir/vertexManager.cpp.o: \
   /usr/local/include/glm/gtc/../mat4x3.hpp \
   /usr/local/include/glm/gtc/type_ptr.inl \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/stb_image.h \
-  /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h
+  /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h \
+  /usr/local/include/GLFW/glfw3.h

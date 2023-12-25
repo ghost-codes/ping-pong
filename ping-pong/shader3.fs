@@ -32,6 +32,7 @@ const vec3 SEA_WATER_COLOR = vec3(0.8,0.9,0.6)*0.6;
 #define SEA_TIME (1.0 + iTime * SEA_SPEED)
 const mat2 octave_m = mat2(1.6,1.2,-1.2,1.6);
 
+
 // math
 mat3 fromEuler(vec3 ang) {
 	vec2 a1 = vec2(sin(ang.x),cos(ang.x));
