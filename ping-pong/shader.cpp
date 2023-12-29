@@ -102,3 +102,8 @@ void Shader::setMat4(const std::string &name, glm::mat4 value) const {
   unsigned int projectionLoc = glGetUniformLocation(ID, name.c_str());
   glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(value));
 }
+
+void Shader::setVec3(const std::string &name, glm::vec3 value) const {
+  unsigned int loc = glGetUniformLocation(ID, name.c_str());
+  glUniform3f(loc, value.x, value.y, value.z);
+}
