@@ -47,22 +47,22 @@ void main() {
   vec3 norm = normalize(Normal);
 
   // when working with meshlights or points
-  vec3 lightDir = normalize(light.position - FragPos);
+  // vec3 lightDir = normalize(light.position - FragPos);
   // -----> Computing Attenuation
-  float theta = dot(lightDir, normalize(-light.direction));
-  float epsilon = light.cutoff - light.outerCutOff;
-  float intensity = clamp((theta - light.outerCutOff) / epsilon, 0.0, 1.0);
-
+  // float theta = dot(lightDir, normalize(-light.direction));
+  // float epsilon = light.cutoff - light.outerCutOff;
+  // float intensity = clamp((theta - light.outerCutOff) / epsilon, 0.0, 1.0);
+  //
   // if (theta > light.cutoff) {
-  float distance = length(light.position - FragPos);
-  float attenuation = 1.0 / (light.constant + light.linear * distance +
-                             light.quadratic * (distance * distance));
+  // float distance = length(light.position - FragPos);
+  // float attenuation = 1.0 / (light.constant + light.linear * distance +
+  //                            light.quadratic * (distance * distance));
   // -----> Uncomment to use directional lights
-  // vec3 lightDir = normalize(-light.direction);
+  vec3 lightDir = normalize(-light.direction);
 
   float diffImpact = max(dot(lightDir, norm), 0.0);
-  vec3 diffuse =
-      light.diffuse * (diffImpact * vec3(texture(material.diffuse, TexCoord)));
+  vec3 diffuse = light.diffuse *
+                 (diffImpact * vec3(texture(material.diffuse, TexCoord).rgb));
 
   // work with specular
   vec3 viewDir = normalize(viewPos - FragPos);
@@ -71,12 +71,13 @@ void main() {
   vec3 specular =
       light.specular * (spec * vec3(texture(material.specular, TexCoord)));
 
-  diffuse *= attenuation;
-  specular *= attenuation;
+  // diffuse *= attenuation;
+  // specular *= attenuation;
   // ambient *= attenuation;
-  diffuse *= intensity;
-  specular *= intensity;
+  // diffuse *= intensity;
+  // specular *= intensity;
   FragColor = vec4(ambient + diffuse + specular, 1.0);
+  // FragColor = texture(material.diffuse, TexCoord);
   // } else {
   //   FragColor =
   //       vec4(light.ambient * texture(material.diffuse, TexCoord).rgb, 1.0);

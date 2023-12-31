@@ -61,6 +61,7 @@ CMakeFiles/ping-pong.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_volatile.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/stddef.h \
+  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include/__stddef_max_align_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/version \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/type_traits \
@@ -673,6 +674,7 @@ CMakeFiles/ping-pong.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
   /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/stb_image.h \
   /usr/local/include/GLFW/glfw3.h /usr/local/include/glm/glm.hpp \
   /usr/local/include/glm/detail/_fixes.hpp \
   /usr/local/include/glm/detail/setup.hpp \
@@ -991,9 +993,32 @@ CMakeFiles/ping-pong.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/model.hpp \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/mesh.hpp \
+  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/shader.hpp \
+  /usr/local/include/assimp/mesh.h /usr/local/include/assimp/aabb.h \
+  /usr/local/include/assimp/vector3.h /usr/local/include/assimp/defs.h \
+  /usr/local/include/assimp/config.h /usr/local/include/assimp/types.h \
+  /usr/local/include/assimp/vector2.h /usr/local/include/assimp/color4.h \
+  /usr/local/include/assimp/matrix3x3.h \
+  /usr/local/include/assimp/matrix4x4.h \
+  /usr/local/include/assimp/quaternion.h \
+  /usr/local/include/assimp/vector2.inl \
+  /usr/local/include/assimp/vector3.inl \
+  /usr/local/include/assimp/color4.inl \
+  /usr/local/include/assimp/matrix3x3.inl \
+  /usr/local/include/assimp/matrix4x4.inl \
+  /usr/local/include/assimp/MathFunctions.h \
+  /usr/local/include/assimp/quaternion.inl \
+  /usr/local/include/assimp/scene.h /usr/local/include/assimp/texture.h \
+  /usr/local/include/assimp/./Compiler/pushpack1.h \
+  /usr/local/include/assimp/./Compiler/poppack1.h \
+  /usr/local/include/assimp/light.h /usr/local/include/assimp/camera.h \
+  /usr/local/include/assimp/material.h \
+  /usr/local/include/assimp/material.inl \
+  /usr/local/include/assimp/anim.h /usr/local/include/assimp/metadata.h \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/camera.hpp \
   /usr/local/include/glm/ext/matrix_transform.hpp \
   /usr/local/include/glm/ext/quaternion_geometric.hpp \
-  /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/shader.hpp \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/vertexManager.hpp \
   /Users/macbookpro/Documents/personal/graphics/ping-pong/ping-pong/windowManager.hpp
